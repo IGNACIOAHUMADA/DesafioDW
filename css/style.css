@@ -1,0 +1,262 @@
+.cartas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+h3 {
+  font-size: 1.5rem; }
+
+.grid {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-areas: "grid_imagen1 grid_imagen1 grid_descripcion1 grid_descripcion1" "grid_imagen2 grid_imagen2 grid_descripcion2 grid_descripcion2" "grid_imagen3 grid_imagen3 grid_descripcion3 grid_descripcion3" "footer footer footer footer";
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 10% 10% 40% 40%;
+  grid-row-gap: 50px;
+  grid-column-gap: 30px;
+  padding: 50px; }
+
+.grid_img {
+  border-radius: 10%;
+  width: 100%;
+  transition: all 1s ease-in-out; }
+
+.grid_img:hover {
+  transform: scale3d(1, -1, 1); }
+
+.grid_imagen1 {
+  transition: heighr 4s;
+  grid-area: grid_imagen1; }
+
+.grid_imagen2 {
+  transition: heighr 4s;
+  grid-area: grid_imagen2; }
+
+.grid_imagen3 {
+  grid-area: grid_imagen3; }
+
+.grid_descripcion1 {
+  grid-area: grid_descripcion1;
+  text-align: left;
+  width: 80%; }
+
+.grid_descripcion2 {
+  grid-area: grid_descripcion2;
+  text-align: left;
+  width: 80%; }
+
+.grid_descripcion3 {
+  grid-area: grid_descripcion3;
+  text-align: left;
+  width: 80%; }
+
+.footerProductos {
+  grid-area: footer; }
+
+.formulario {
+  width: 95%;
+  margin: 10px; }
+
+.form-select:focus {
+  border-color: #1f1f1f;
+  box-shadow: 0 0 0 0.1rem #1f1f1f; }
+
+.form-control:focus {
+  border-color: #1f1f1f;
+  box-shadow: 0 0 0 0.1rem #1f1f1f; }
+
+.btn-primary {
+  color: #f8f9fa;
+  background-color: #1f1f1f;
+  border-color: #1f1f1f; }
+
+.btn-primary:hover {
+  background-color: #f8f9fa;
+  color: #5E3E22;
+  border-color: #1f1f1f; }
+
+/*  CATERING******** */
+.carousel {
+  width: 80%;
+  height: 25%; }
+
+.contenedorCar {
+  display: flex;
+  justify-content: center; }
+
+.acordeon {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center; }
+
+.accordion {
+  width: 90%; }
+
+.accordion-button:not(.collapsed) {
+  color: #5E3E22;
+  background-color: #f9d2da66; }
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.1rem #fcd0d9ab; }
+
+/* NOSOTROS******** */
+.infoNosotros {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; }
+
+.infoNosotros_carta1 {
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left; }
+
+.infoNosotros_carta2 {
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right; }
+
+.infoNosotros_titulo1 {
+  display: flex;
+  justify-content: left; }
+
+.infoNosotros_titulo2 {
+  display: flex;
+  justify-content: left; }
+
+.infoNosotros_texto1 {
+  display: flex;
+  justify-content: left; }
+
+.infoNosotros_texto2 {
+  display: flex;
+  justify-content: left; }
+
+/* SUCURSALES******** */
+.sucursalesUno {
+  display: ruby-text;
+  padding: 20px; }
+
+.padre {
+  width: 100%; }
+
+.direcciones, .direcciones_2 {
+  width: 50%;
+  display: list-item;
+  list-style: none;
+  float: left;
+  padding: 50px;
+  margin-top: 20px; }
+
+.maps {
+  border-radius: 5%; }
+
+.direcciones_titulo1, .direcciones_titulo2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  font-size: 1.2em; }
+
+.direcciones_titulo2 {
+  justify-content: left;
+  color: black; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: georama; }
+
+/* HEADER *********** */
+body {
+  background-color: #F9D1D9; }
+
+/* barra de navegacion */
+.navbar-light .navbar-nav .nav-link.active:hover {
+  color: #1f1f1f;
+  background-color: #f9d2da66;
+  border-radius: 20rem; }
+
+.navbar-brand {
+  width: 150px; }
+
+.loguito {
+  width: 225px; }
+
+#navegacion {
+  width: 100%;
+  height: 50%; }
+
+main h2, h3 {
+  color: #5E3E22;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px; }
+
+/* FOOTER**** */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #F9D1D9, rgba(255, 255, 255, 0.842)); }
+
+footer .redSocial {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 10px;
+  width: 20%; }
+
+.border-boton {
+  border-bottom: 1px solid #3d4042 !important; }
+
+.text-mute {
+  --bs-text-opacity: 1;
+  color: #3d4042 !important; }
+
+.redSocial_instagram {
+  background-color: #C13584;
+  border-radius: 500px; }
+
+.redSocial_facebook {
+  background-color: #3a5795;
+  border-radius: 500px; }
+
+.redSocial_whatsapp {
+  background-color: #42b72a;
+  border-radius: 500px; }
+
+.redSocial a :hover {
+  background-color: #F9D1D9;
+  color: #5E3E22; }
+
+.redesSociales {
+  color: black; }
+
+/* Media Q ********/
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  .grilla {
+    position: relative;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: #ebdfdf; } }
+
+@media only screen and (min-width: 768px) and (max-width: 940px) {
+  .grilla {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: rgba(235, 223, 223, 0.5);
+    background-color: rg; } }
+
+@media only screen and (min-width: 939px) and (max-width: 1024px) {
+  .grilla {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: rgba(235, 223, 223, 0.8); } }

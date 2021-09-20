@@ -1,0 +1,49 @@
+// variables 
+$pink:#F9D1D9;
+$rosa_op:#f9d2da66;
+$pink_op2:#fcd0d9ab;
+$brown:#5E3E22;
+$white:#f8f9fa;
+$negro: #1f1f1f;
+
+
+
+/* NOSOTROS******** */
+.infoNosotros{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.infoNosotros_carta1{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+}
+.infoNosotros_carta2{
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+}
+.infoNosotros_titulo1{ 
+    display: flex;
+    justify-content: left;
+}
+.infoNosotros_titulo2{
+    display: flex;
+    justify-content:left;
+}
+.infoNosotros_texto1{
+    display: flex;
+    justify-content: left;
+    
+}
+.infoNosotros_texto2{
+    display: flex;
+    justify-content: left;
+}
+

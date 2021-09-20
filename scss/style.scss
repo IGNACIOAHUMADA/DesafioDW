@@ -1,0 +1,120 @@
+@import "index";
+@import "productos";
+@import "contacto";
+@import "catering";
+@import "nosotros";
+@import "sucursales";
+@import "variables";
+
+// variables 
+$pink:#F9D1D9;
+$rosa_op:#f9d2da66;
+$pink_op2:#fcd0d9ab;
+$brown:#5E3E22;
+$white:#f8f9fa;
+$negro: #1f1f1f;
+
+$redes:(
+    instagram:#C13584,
+    facebook:#3a5795,
+    whatsapp:#42b72a
+);  
+*{
+    margin: 0;
+    padding: 0;
+    font-family: georama;
+}
+/* HEADER *********** */
+body{
+    background-color: $pink;
+}
+/* barra de navegacion */
+.navbar-light .navbar-nav .nav-link.active:hover {
+    color:$negro;
+    background-color: $rosa_op;
+    border-radius: 20rem;
+}
+.navbar-brand{
+    width: 150px;
+}
+.loguito{
+    width: 225px;
+}
+#navegacion{
+    width: 100%;
+    height: 50%;
+    
+}
+main h2, h3{
+    color: $brown;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+}
+/* FOOTER**** */
+footer{
+    text-align:center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to bottom,$pink,rgba(255, 255, 255, 0.842) );
+}
+footer .redSocial{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    width: 20%;
+}
+.border-boton{
+    border-bottom: 1px solid #3d4042!important;
+}
+.text-mute {
+    --bs-text-opacity: 1;
+    color: #3d4042!important;
+}
+@each $red, $color in $redes{
+    .redSocial_#{$red}{
+        background-color: $color;
+        border-radius: 500px;
+    }
+}
+.redSocial a :hover{
+    background-color: $pink;
+    color: $brown;
+}
+.redesSociales{
+    color: black;
+}
+
+
+/* Media Q ********/
+
+@media only screen and (min-width:400px) and (max-width:767px){
+    .grilla{
+        position: relative;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        background-color: rgb(235, 223, 223);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:940px){
+    .grilla{
+        grid-template-columns: auto;
+        grid-template-rows:auto;
+        background-color: rgba(235, 223, 223,0.5);
+        background-color: rg;
+    }
+
+}
+@media only screen and (min-width:939px) and (max-width:1024px){
+    .grilla{
+        grid-template-columns: auto;
+        grid-template-rows:auto;
+        background-color: rgba(235, 223, 223,0.80);   
+    }
+
+}

@@ -1,0 +1,45 @@
+// variables 
+$pink:#F9D1D9;
+$rosa_op:#f9d2da66;
+$pink_op2:#fcd0d9ab;
+$brown:#5E3E22;
+$white:#f8f9fa;
+$negro: #1f1f1f;
+
+
+
+
+/* SUCURSALES******** */
+.sucursalesUno{
+    display: ruby-text;
+    padding: 20px;
+}
+.padre{
+    width: 100%;
+}
+.direcciones{
+    width: 50%;
+    display: list-item;
+    list-style: none;
+    float: left;
+    padding: 50px;
+    margin-top: 20px;
+}
+.maps{
+    border-radius: 5%;
+}
+
+.direcciones_2{
+    @extend .direcciones;
+}
+.direcciones_titulo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 1.2em;
+}
+.direcciones_titulo2{
+    @extend .direcciones_titulo1;
+    justify-content: left;
+    color: black;
+}
