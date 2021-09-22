@@ -1,0 +1,5 @@
+
+- Se agregó palabras clave a la páginas de mi sitio web.
+- Se agregó información extra en los títulos de cada página.
+- Se agregó una breve Description del sitio web en cada pagina.
+- Se colocaron h1/2/3, descentralizando los títulos.
