@@ -13,5 +13,13 @@
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGNACIOAHUMADA/MiPrimerGit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IGNACIOAHUMADA/MiPrimerGit/issues"
+  },
+  "homepage": "https://github.com/IGNACIOAHUMADA/MiPrimerGit#readme"
 }
