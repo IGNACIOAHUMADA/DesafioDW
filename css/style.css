@@ -212,10 +212,9 @@ footer {
 
 footer .redSocial {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
-  padding: 10px;
-  width: 20%; }
+  padding: 10px; }
 
 .border-boton {
   border-bottom: 1px solid #3d4042 !important; }
@@ -224,21 +223,13 @@ footer .redSocial {
   --bs-text-opacity: 1;
   color: #3d4042 !important; }
 
-.redSocial_instagram {
-  background-color: #C13584;
-  border-radius: 500px; }
-
-.redSocial_facebook {
-  background-color: #3a5795;
-  border-radius: 500px; }
-
-.redSocial_whatsapp {
-  background-color: #42b72a;
-  border-radius: 500px; }
+.redSocial a {
+  padding: 10px; }
 
 .redSocial a :hover {
   background-color: #F9D1D9;
-  color: #5E3E22; }
+  color: #5E3E22;
+  border-radius: 30%; }
 
 .redesSociales {
   color: black; }

@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/IGNACIOAHUMADA/MiPrimerGit/issues"
   },
-  "homepage": "https://github.com/IGNACIOAHUMADA/MiPrimerGit#readme"
+  "homepage": "https://github.com/IGNACIOAHUMADA/MiPrimerGit#readme",
+  "dependencies": {}
 }

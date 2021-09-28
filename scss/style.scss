@@ -63,10 +63,10 @@ footer{
 }
 footer .redSocial{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     padding: 10px;
-    width: 20%;
+   
 }
 .border-boton{
     border-bottom: 1px solid #3d4042!important;
@@ -75,15 +75,14 @@ footer .redSocial{
     --bs-text-opacity: 1;
     color: #3d4042!important;
 }
-@each $red, $color in $redes{
-    .redSocial_#{$red}{
-        background-color: $color;
-        border-radius: 500px;
-    }
+.redSocial a{
+    padding: 10px;
 }
+
 .redSocial a :hover{
     background-color: $pink;
     color: $brown;
+    border-radius: 30%;
 }
 .redesSociales{
     color: black;
