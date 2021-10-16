@@ -45,6 +45,12 @@ body{
     height: 50%;
     
 }
+h1{
+    color: $brown;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
 main h2, h3{
     color: $brown;
     text-transform: uppercase;
@@ -66,7 +72,7 @@ footer .redSocial{
     justify-content: center;
     flex-direction: row;
     padding: 10px;
-   
+    
 }
 .border-boton{
     border-bottom: 1px solid #3d4042!important;
