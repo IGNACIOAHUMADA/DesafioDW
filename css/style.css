@@ -105,21 +105,32 @@ h3 {
   width: 100%;
   padding: 20px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
 
 .infoNosotros_carta1 {
-  padding: 10px;
   width: 50%;
   display: flex;
+  flex: 1;
   flex-direction: column;
-  justify-content: left; }
+  justify-content: left;
+  min-width: 250px;
+  background-color: #fab8c5c2;
+  border-radius: 10%;
+  padding: 25px;
+  margin: 20px; }
 
 .infoNosotros_carta2 {
-  padding: 10px;
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: right; }
+  justify-content: right;
+  flex: 1;
+  min-width: 250px;
+  background-color: #5e3e222c;
+  border-radius: 10%;
+  padding: 25px;
+  margin: 20px; }
 
 .infoNosotros_titulo1 {
   display: flex;
@@ -238,19 +249,33 @@ footer .redSocial {
   color: black; }
 
 /* Media Q ********/
+@media only screen and (min-width: 250px) and (max-width: 399px) {
+  .infoNosotros {
+    font-size: 1rem; }
+  .infoNosotros section h2 {
+    font-size: 1.2rem; } }
+
 @media only screen and (min-width: 400px) and (max-width: 767px) {
   .grilla {
     position: relative;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    background-color: #ebdfdf; } }
+    background-color: #ebdfdf; }
+  .infoNosotros {
+    font-size: 1rem; }
+  .infoNosotros section h2 {
+    font-size: 1.3rem; } }
 
 @media only screen and (min-width: 768px) and (max-width: 940px) {
   .grilla {
     grid-template-columns: auto;
     grid-template-rows: auto;
     background-color: rgba(235, 223, 223, 0.5);
-    background-color: rg; } }
+    background-color: rg; }
+  .infoNosotros {
+    font-size: 1rem; }
+  .infoNosotros section h2 {
+    font-size: 1.3rem; } }
 
 @media only screen and (min-width: 939px) and (max-width: 1024px) {
   .grilla {

@@ -97,12 +97,26 @@ footer .redSocial{
 
 /* Media Q ********/
 
+@media only screen and (min-width:250px) and (max-width:399px){
+    .infoNosotros{
+        font-size: 1rem;
+    }
+    .infoNosotros section h2{
+        font-size: 1.2rem;
+    }
+}
 @media only screen and (min-width:400px) and (max-width:767px){
     .grilla{
         position: relative;
         grid-template-columns: auto;
         grid-template-rows: auto;
         background-color: rgb(235, 223, 223);
+    }
+    .infoNosotros{
+        font-size: 1rem;
+    }
+    .infoNosotros section h2{
+        font-size: 1.3rem;
     }
 }
 
@@ -112,6 +126,12 @@ footer .redSocial{
         grid-template-rows:auto;
         background-color: rgba(235, 223, 223,0.5);
         background-color: rg;
+    }
+    .infoNosotros{
+        font-size: 1rem;
+    }
+    .infoNosotros section h2{
+        font-size: 1.3rem;
     }
 
 }

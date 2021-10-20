@@ -5,20 +5,31 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .infoNosotros_carta1{
-    padding: 10px;
     width: 50%;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content:left;
+    min-width: 250px;
+    background-color:#fab8c5c2;
+    border-radius: 10%;
+    padding: 25px;
+    margin: 20px;
 }
 .infoNosotros_carta2{
-    padding: 10px;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content:right;
+    flex: 1;
+    min-width: 250px;
+    background-color:#5e3e222c;
+    border-radius: 10%;
+    padding: 25px;
+    margin: 20px;
 }
 .infoNosotros_titulo1{ 
     display: flex;
