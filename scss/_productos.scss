@@ -2,8 +2,41 @@
 h3{
     font-size: 1.5rem;
 }
+.cardProductos{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-width: 250px;
 
-.grid{
+}
+/* .card-1{
+    padding: 25px;
+    display: flex;
+    flex: 1;
+    min-width: 350px;
+}
+.card-2{
+    padding: 25px;
+    display: flex;
+    flex: 2;
+    min-width: 350px;
+}
+.card-3{
+    padding: 25px;
+    display: flex;
+    flex: 3;
+    min-width: 350px;
+} */
+
+
+
+
+
+
+
+/* .grid{
     width: 80%;
     margin: auto;
     display:grid ;
@@ -54,4 +87,4 @@ h3{
 }
 .footerProductos{
     grid-area: footer;
-}
+} */

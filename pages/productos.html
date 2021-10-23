@@ -8,6 +8,7 @@
     <meta name="keywords"  content="MACARRONS, TORTAS, PRODUCTOS, CLIENTES">
     <!-- animacion -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- fuente de google -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap" rel="stylesheet">
@@ -45,27 +46,52 @@
         </nav>
     </header>
     <main>
-        <h1>Nuestros productos destacados</h1>
-        <section class="grid">
-            <div class="grid_imagen1" data-aos="zoom-out-up">
-                <img class="grid_img" src="../imagenes/macarrons.jpeg" alt="Macarrons1">
+        <h1 class="animate__animated animate__zoomIn">Nuestros productos destacados</h1>
+        <div class="cardProductos">
+        <div class="card mb-3 card-1" style="max-width: 540px;" data-aos="zoom-in">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../imagenes/macarrons.jpeg" class="img-fluid rounded-start" alt="Macarrons">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Macarrones</h5>
+                        <p class="card-text">Pensamos que es la mejor manera de agradecer a quienes nos apoyan día tras día, a los que están con nosotros. A algún amigo, familiar o persona cercana.</p>
+                        <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
+                    </div>
+                </div>
             </div>
-            <div class="grid_descripcion1 " data-aos="zoom-out-up">
-                <p>Pensamos que es la mejor manera de agradecer a quienes nos apoyan día tras día, a los que están con nosotros. A algún amigo, familiar o persona cercana.</p>
+        </div>
+        <div class="card mb-3 card-2" style="max-width: 540px;" data-aos="zoom-in-up" >
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="../imagenes/pavlova.jpeg" class="img-fluid rounded-start" alt="pavlova">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Pavlova</h5>
+                        <p class="card-text">Empezá el día con esta #Pavlova ideal para un desayuno o una merienda, para regalar o para disfrutar con compañía</p>
+                        <p class="card-text"><small class="text-muted">Última actualización hace 6 minutos</small></p>
+                    </div>
+                </div>
             </div>
-            <div class="grid_imagen2 " data-aos="zoom-out-up">
-                <img class="grid_img" src="../imagenes/macarrons2.jpeg" alt="macarrons2">
+        </div>
+        <div class="card mb-3 card-3" style="max-width: 540px;" data-aos="zoom-in">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../imagenes/tabletas.jpeg" class="img-fluid rounded-start" alt="Tabletas">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Tabletas</h5>
+                        <p class="card-text">Pensamos que es la mejor manera de agradecer a quienes nos apoyan día tras día, a los que están con nosotros. A algún amigo, familiar o persona cercana.</p>
+                        <p class="card-text"><small class="text-muted">Última actualización hace 1 hora</small></p>
+                    </div>
+                </div>
             </div>
-            <div class="grid_descripcion2" data-aos="zoom-out-up">
-                <p>Empezá el día con estos #Macarrons ideales para un desayuno o una merienda, para regalar o para disfrutar con compañía</p>
-            </div>
-            <div class="grid_imagen3" data-aos="zoom-out-up">
-                <img class="grid_img" src="../imagenes/mix_de_tortas.jpeg" alt="Mix de mix_de_tortas">
-            </div>
-            <div class="grid_descripcion3" data-aos="zoom-out-up">
-                <p>Nuestras Tortas son las mejores del condado </p>
-            </div>
-        </section>
+        </div>
+    </div>
+
     </main>
     
     <footer class="footerProductos">

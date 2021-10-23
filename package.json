@@ -22,5 +22,7 @@
     "url": "https://github.com/IGNACIOAHUMADA/MiPrimerGit/issues"
   },
   "homepage": "https://github.com/IGNACIOAHUMADA/MiPrimerGit#readme",
-  "dependencies": {}
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
