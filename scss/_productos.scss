@@ -11,80 +11,8 @@ h3{
     min-width: 250px;
 
 }
-/* .card-1{
-    padding: 25px;
-    display: flex;
-    flex: 1;
-    min-width: 350px;
-}
-.card-2{
-    padding: 25px;
-    display: flex;
-    flex: 2;
-    min-width: 350px;
-}
-.card-3{
-    padding: 25px;
-    display: flex;
-    flex: 3;
-    min-width: 350px;
-} */
 
 
 
 
 
-
-
-/* .grid{
-    width: 80%;
-    margin: auto;
-    display:grid ;
-    grid-template-areas:
-        "grid_imagen1 grid_imagen1 grid_descripcion1 grid_descripcion1"
-        "grid_imagen2 grid_imagen2 grid_descripcion2 grid_descripcion2"
-        "grid_imagen3 grid_imagen3 grid_descripcion3 grid_descripcion3"
-        "footer footer footer footer" ;
-    grid-template-rows:repeat(3,1fr) ;
-    grid-template-columns: 10% 10% 40% 40%;
-    grid-row-gap: 50px; 
-    grid-column-gap: 30px;
-    padding: 50px;
-}
-.grid_img{
-    border-radius: 10%;
-    width:100%;
-    transition: all 1s ease-in-out;
-}
-.grid_img:hover{
-    transform:scale3d(1,-1,1);
-}
-.grid_imagen1{
-    transition:heighr 4s;
-    grid-area:grid_imagen1;
-}
-.grid_imagen2{
-    transition:heighr 4s;
-    grid-area:grid_imagen2;
-}
-.grid_imagen3{
-    grid-area:grid_imagen3;
-}
-.grid_descripcion1{
-    grid-area:grid_descripcion1;
-    text-align: left;
-    width: 80%;
-}
-.grid_descripcion2{
-    grid-area: grid_descripcion2;
-    text-align:left;
-    width: 80%;
-}
-.grid_descripcion3{
-    grid-area: grid_descripcion3;
-    text-align:left;
-    width: 80%;
-}
-.footerProductos{
-    grid-area: footer;
-} */
